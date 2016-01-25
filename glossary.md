@@ -8,5 +8,7 @@ Put your terms and definitions below. If you have never used markdown for format
 ##Tiered Architecture
 
 -Presentation Tier
+
 -Application Tier
+
 -Data Tier
