@@ -12,3 +12,5 @@ Put your terms and definitions below. If you have never used markdown for format
 -Application Tier
 
 -Data Tier
+Typically where metadata is stored in a relational database management system such as ORacle or SQLserver.
+Includes data access components, data helpers/utilities, and service agents. 
