@@ -8,26 +8,7 @@ Put your terms and definitions below. If you have never used markdown for format
 ##Tiered Architecture
 
 -Presentation Tier
-  - Visual representation of Application Tier
-  - What the user will see
-  - Allows user to interact (via UI) with Application Tier
 
 -Application Tier
-
+  - The connecting software between the visual tier and the database tier. It contains the web server and application servers used to help secure input and output data flow between servers. It controls the application's functionailty by performing detailed processing. (Examples: KML, Python code)
 -Data Tier
-
-###Reference Glossary
-
--http://bit.ly/1cHgxnA
-
--http://bit.ly/1AQDZDW
-
--http://www.uxworld.com/?p=384
-
--http://www.root-servers.org/
-
-
-
-
-
-
