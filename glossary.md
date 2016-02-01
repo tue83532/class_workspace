@@ -12,3 +12,19 @@ Put your terms and definitions below. If you have never used markdown for format
 -Application Tier
 
 -Data Tier
+
+###Reference Glossary
+
+-http://bit.ly/1cHgxnA
+
+-http://bit.ly/1AQDZDW
+
+-http://www.uxworld.com/?p=384
+
+-http://www.root-servers.org/
+
+
+
+
+
+
