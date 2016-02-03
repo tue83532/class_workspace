@@ -10,15 +10,26 @@ Put your terms and definitions below. If you have never used markdown for format
 
 ##Tiered Architecture
 
--Presentation Tier
+-*Presentation Tier*
+
     - Visual representation of Application Tier
     - What the user will see
     - Allows user to interact (via UI) with Application Tier
   
--Application Tier
+-*Application Tier*
 
--Data Tier
-In Web GIS, the data tier contains the necessary data for GIS servers (CSVs, shapefiles, file geodatabases, etc.)
+The connecting software between the visual tier and the database tier. It contains the web server and application servers used to help secure input and output data flow between servers. It controls the application's functionailty by performing detailed processing. (Examples: KML, Python code)
 
-Typically where metadata is stored in a relational database management system such as Oracle or SQLserver.
-Includes data access components, data helpers/utilities, and service agents. 
+-*Data Tier*
+
+In Web GIS, the data tier contains the necessary data for GIS servers (CSVs, shapefiles, file geodatabases, etc.). Typically where metadata is stored in a relational database management system such as Oracle or SQLserver. Includes data access components, data helpers/utilities, and service agents. 
+
+###Reference Glossary
+
+-http://bit.ly/1cHgxnA
+
+-http://bit.ly/1AQDZDW
+
+-http://www.uxworld.com/?p=384
+
+-http://www.root-servers.org/
