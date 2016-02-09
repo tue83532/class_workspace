@@ -14,7 +14,7 @@
   <script>
 
   // initialize the map
-  var map = L.map('map').setView([55.7500, 37.6167], 17);
+  var map = L.map('map').setView([40.0237, -75.1723], 17);
 
   // load a tile layer
   L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
@@ -24,15 +24,15 @@
       minZoom: 7
     }).addTo(map);
 
-L.marker([55.7619, 37.5772]).addTo(map)
-    .bindPopup('moscow zoo')
+L.marker([40.0237, -75.1723]).addTo(map)
+    .bindPopup('Cricket Club')
     .openPopup();
 	
-L.marker([55.761944, 37.584938]).addTo(map)
-    .bindPopup('not moscow zoo')
+L.marker([39.9807,-75.1802]).addTo(map)
+    .bindPopup('Kelly School')
     .openPopup();	
 	
-	var circle = L.circle([55.805147, 37.535140], 500, {
+	var circle = L.circle([40.0237, -75.1723], 500, {
     color: 'red',
     fillColor: '#ffffff',
     fillOpacity: 0.5
