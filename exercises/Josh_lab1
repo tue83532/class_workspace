@@ -1,0 +1,28 @@
+<html>
+<head>
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
+	<script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+</head>
+<body>
+	Josh's life!
+	<div id='map' style="height:400px; width:600px"></div>
+	<script>
+		var map = L.map('map').setView([39.98125,-75.1525335], 13);
+		var hospital = L.marker([ 40.059417,-75.041380]).addTo(map);
+		var city_house = L.marker([ 40.063771,-75.026373]).addTo(map); 
+		var suburb_house = L.marker([ 40.111110,-75.146263]).addTo(map); 
+		var last_suburb = L.marker([ 40.113328,-75.147991]).addTo(map); 
+		var highschool = L.marker([ 40.112139,-75.131815]).addTo(map);
+		var stadium = L.marker([ 440.112590,-75.132858]).addTo(map);
+		hospital.bindPopup("<b>Temple Babee!</b><br>I am an OWL!<br> Hoot Hoot").openPopup();
+		city_house.bindPopup("<b>Temple Babee!</b><br>I am an OWL!<br> Hoot Hoot").openPopup();
+		suburb_house.bindPopup("<b>Temple Babee!</b><br>I am an OWL!<br> Hoot Hoot").openPopup();
+		last_suburb.bindPopup("<b>Temple Babee!</b><br>I am an OWL!<br> Hoot Hoot").openPopup();
+		highschool.bindPopup("<b>Temple Babee!</b><br>I am an OWL!<br> Hoot Hoot").openPopup();
+		stadium.bindPopup("<b>Temple Babee!</b><br>I am an OWL!<br> Hoot Hoot").openPopup();
+		L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+			attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+		}).addTo(map);
+	</script>
+</body>
+</html>
