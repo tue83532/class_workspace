@@ -7,7 +7,7 @@
 	Josh's life!
 	<div id='map' style="height:400px; width:600px"></div>
 	<script>
-		var map = L.map('map').setView([39.98125,-75.1525335], 100);
+		var map = L.map('map').setView([40.112139,-75.131815], 100);
 		var hospital = L.hospital([ 40.059417,-75.041380]).addTo(map);
 		var city_house = L.city_house([ 40.063771,-75.026373]).addTo(map); 
 		var suburb_house = L.suburb_house([ 40.111110,-75.146263]).addTo(map); 
